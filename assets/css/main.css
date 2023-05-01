@@ -1,7 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans&display=swap");
 
-/*Dimension by HTML5 UP | html5up.net | @ajlkn | Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)*/
 
 * {
 	margin: 0;
@@ -23,7 +22,6 @@ ol, ul {
 	list-style: none;
 }
 
-/* controls the text inflation algorithm used on some smartphones and tablets. Other browsers will ignore this property */
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -40,7 +38,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
 
 	@-ms-viewport {
 		width: device-width;
@@ -77,7 +74,6 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-/* Type */
 
 	html {
 		font-size: 16pt;
@@ -115,7 +111,7 @@ input, select, textarea {
 		line-height: 1.65;
 	}
 
-	a { /* this applies to the link at the bottom */
+	a { 
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -196,10 +192,9 @@ input, select, textarea {
 
 	}
 
-/* Form */
 
 	form {
-		margin: 0 0 2rem 0; /* puts space btwn sm btns and form */
+		margin: 0 0 2rem 0; 
 	}
 
 		form > :last-child {
@@ -354,7 +349,6 @@ input, select, textarea {
 		opacity: 1.0;
 	}
 
-/* Icon */
 
 	.icon {
 		text-decoration: none;
@@ -375,7 +369,6 @@ input, select, textarea {
 			display: none;
 		}
 
-/* Image */
 
 	.image {
 		border-radius: 4px;
@@ -468,7 +461,6 @@ input, select, textarea {
 }
 .container {
   position: relative;
-  /* width: 50%; */
 }
 .image {
   opacity: 1;
@@ -504,7 +496,6 @@ input, select, textarea {
 	border: 1px solid #D5A001;	
 }
 .aboutProject{
-	/* background-color: #D5A001; */
 	width: 420.587px;
 	height: 37%;
 	margin: 5px;
@@ -528,7 +519,6 @@ input, select, textarea {
 
 		}
 
-/* List */
 
 	ol {
 		list-style: decimal;
@@ -565,7 +555,6 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
-/* Actions */
 
 	ul.actions {
 		display: -moz-flex;
@@ -687,7 +676,6 @@ input, select, textarea {
 
 		}
 
-/* Icons */
 
 	ul.icons {
 		cursor: default;
@@ -728,7 +716,6 @@ input, select, textarea {
 					background-color: rgba(230, 231, 231, 0.175);
 				}
 
-/* Button */
 
 	input[type="submit"],
 	input[type="reset"],
@@ -835,7 +822,6 @@ input, select, textarea {
 		line-height: calc(2.75rem - 2px);
 	}
 
-/* BG */
 
 	#bg {
 		-moz-transform: scale(1.0);
@@ -910,7 +896,6 @@ input, select, textarea {
 			background-color: #000000;
 		}
 
-/* Wrapper */
 
 	#wrapper {
 		display: -moz-flex;
@@ -965,7 +950,6 @@ input, select, textarea {
 
 		}
 
-/* Header */
 
 	#header {
 		display: -moz-flex;
@@ -1066,9 +1050,7 @@ input, select, textarea {
 				}
 
 			#header .content p {
-				/* text-transform: uppercase; */
 				letter-spacing: 0.2rem;
-				/* font-size: 1rem; */
 				line-height: 1.5;
 			}
 
@@ -1238,7 +1220,6 @@ input, select, textarea {
 
 		}
 
-/* Main */
 
 	#main {
 		-moz-flex-grow: 1;
@@ -1360,7 +1341,6 @@ input, select, textarea {
 
 		}
 
-/* Footer */
 
 	#footer {
 		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
